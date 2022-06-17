@@ -4,8 +4,6 @@ body {
     padding: 0;
     border: 0;
     display: flex;
-    
-
 }
 div.box1 {
     background: rgb(254, 254, 254);
@@ -26,32 +24,32 @@ div.boxbox {
 
 div.box1 img {
     height: 200px;
+    display: block;
 }
 
 div.box2 {
     background: rgb(71, 177, 64);
     display: inline-block;
-    width: 80%;
+    width: 50%;
     box-sizing: border-box;
     height: 100px;
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 12px;
+    line-height: 0;
   
 }
 
 div.box2 img {
-    width: 80%;
-    height: 90%;
+ width: 500px;
+
 }
 
 div.box3 {
     background: rgb(91, 55, 169);
     display: inline-block;
-    width: 20%;
+    width: 50%;
     height: 100px;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
