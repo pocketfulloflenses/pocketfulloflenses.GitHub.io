@@ -1,44 +1,62 @@
 body {
-    width: 100%;
     margin: 0;
     padding: 0;
     border: 0;
-    display: flex;
+    font-size: 0;
+  
 }
 
 div.box1 {
-    background: rgb(254, 254, 254);
+    background: rgb(196, 177, 177);
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 0;
     padding: 0;
     border: 0;
+    font-size: 12px;
     
 }
 
+/* div.doublebox {
+    width: calc(100vw - 200px);
+    display: inline-block;
+
+} */
+
 div.box1 img {
-    height: 200px;
+    height: 150px;
     display: inline-block;
 }
 
 div.box2 {
-    background: rgb(71, 177, 64);
+    background: rgb(245, 255, 244);
     display: inline-block;
-    width: 70%;
+    width: calc(100vw - 150px);
     height: 100px;
     margin: 0;
     padding: 0;
     border: 0;
+    font-size: 20px;
+    position: absolute;
   
 }
 
+div.test1 {
+    display: inline-block;
+}
+div.test2 {
+    float: right;
+}
 
+div.test2 ul li {
+    display: inline;
+}
 
 div.box3 {
     background: rgb(91, 55, 169);
     display: inline-block;
-    height: 100px;
+    height: 150px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -48,9 +66,12 @@ div.box3 {
 
 div.box4 {
     background: rgb(235, 201, 201);
-    display: block;
-    height: 50px;
+    display: inline-block;
+    height: 50px; 
     font-size: 18px;
+    width: calc(100vw - 150px);
+    position: absolute;
+    margin-top: 100px;
 }
 
 div.box4 ul {
@@ -60,4 +81,9 @@ div.box4 ul {
 div.box4 ul li {
     display: inline-block;
     margin: 20px;
+}
+
+div.text {
+    margin-top: 20px;
+    font-size: 20px;
 }
