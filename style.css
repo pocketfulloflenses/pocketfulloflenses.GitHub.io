@@ -5,10 +5,10 @@ body {
     border: 0;
     display: flex;
 }
+
 div.box1 {
     background: rgb(254, 254, 254);
     display: inline-block;
-    box-sizing: border-box;
     width: 200px;
     height: 200px;
     margin: 0;
@@ -17,38 +17,27 @@ div.box1 {
     
 }
 
-div.boxbox {
-    width: 100%;
-    font-size: 0;
-}
-
 div.box1 img {
     height: 200px;
-    display: block;
+    display: inline-block;
 }
 
 div.box2 {
     background: rgb(71, 177, 64);
     display: inline-block;
-    width: 50%;
-    box-sizing: border-box;
+    width: 70%;
     height: 100px;
     margin: 0;
     padding: 0;
     border: 0;
-    line-height: 0;
   
 }
 
-div.box2 img {
- width: 500px;
 
-}
 
 div.box3 {
     background: rgb(91, 55, 169);
     display: inline-block;
-    width: 50%;
     height: 100px;
     margin: 0;
     padding: 0;
