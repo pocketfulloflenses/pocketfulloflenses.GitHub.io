@@ -14,7 +14,7 @@ div.box1 {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 12px;
+    font-size: 0px;
     
 }
 
@@ -23,6 +23,22 @@ div.box1 {
     display: inline-block;
 
 } */
+
+div.test1  {
+  display: inline-block;
+  
+}
+
+div.test1 img {
+    width: 30%;
+    margin-left: 10%;
+    display: inline-block;
+ 
+}
+div.box2 img.bild {
+    margin-left: 20px;
+    width: 30%;
+}
 
 div.box1 img {
     height: 150px;
@@ -81,6 +97,15 @@ div.box4 ul {
 div.box4 ul li {
     display: inline-block;
     margin: 20px;
+}
+
+div.test2 ul li.yt img {
+    width: 30px;
+
+    
+}
+div.test2 ul li.insta img {
+    width: 30px;
 }
 
 div.text {
