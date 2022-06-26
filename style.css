@@ -3,112 +3,91 @@ body {
     padding: 0;
     border: 0;
     font-size: 0;
-  
 }
 
 div.box1 {
-    background: rgb(196, 177, 177);
+    background: rgb(255, 255, 255);
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 0px;
-    
-}
-
-/* div.doublebox {
-    width: calc(100vw - 200px);
-    display: inline-block;
-
-} */
-
-div.test1  {
-  display: inline-block;
-  
-}
-
-div.test1 img {
-    width: 30%;
-    margin-left: 10%;
-    display: inline-block;
- 
-}
-div.box2 img.bild {
-    margin-left: 20px;
-    width: 30%;
+    border-bottom: 1px solid black;
 }
 
 div.box1 img {
-    height: 150px;
+    height: 200px;
     display: inline-block;
 }
 
-div.box2 {
-    background: rgb(245, 255, 244);
-    display: inline-block;
-    width: calc(100vw - 150px);
+div.box2 img.bild {
+    margin-left: 150px;
     height: 100px;
+}
+
+div.box2 {
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    width: calc(100vw - 200px);
+    height: 150px;
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 20px;
     position: absolute;
-  
 }
 
-div.test1 {
-    display: inline-block;
-}
 div.test2 {
     float: right;
+    width: 170px;
+}
+
+div.test2 ul {
+    margin: 0;
+    padding: 0;
 }
 
 div.test2 ul li {
     display: inline;
 }
 
-div.box3 {
-    background: rgb(91, 55, 169);
-    display: inline-block;
-    height: 150px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 12px;
-  
-}
 
 div.box4 {
-    background: rgb(235, 201, 201);
+    background: rgb(255, 255, 255);
     display: inline-block;
     height: 50px; 
     font-size: 18px;
-    width: calc(100vw - 150px);
+    width: calc(100vw - 200px);
     position: absolute;
-    margin-top: 100px;
+    margin-top: 150px;
+    border-bottom: 1px solid black;
 }
 
 div.box4 ul {
     margin: 0;
-}
-
-div.box4 ul li {
     display: inline-block;
-    margin: 20px;
 }
 
-div.test2 ul li.yt img {
-    width: 30px;
-
-    
-}
-div.test2 ul li.insta img {
-    width: 30px;
+div nav {
+    display: inline;
+    width: calc(100vw+350px);
 }
 
-div.text {
+div.box4 ul.nav li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+
+div.test2 ul li img {
+    height: 30px;
+}
+
+div.text1 {
     margin-top: 20px;
     font-size: 20px;
 }
