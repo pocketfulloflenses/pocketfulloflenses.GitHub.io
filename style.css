@@ -3,10 +3,11 @@ body {
 }
 
 header {
-    background-image: url("icelandphotos/iceland-trips-travel-guide.jpeg");
-    height: 600px;
+    background-image: url("icelandphotos/IMG_3036.jpg");
+    height: 1000px;
     background-size: cover;
     background-position: center;
+    top: px;
 }
 header div {
     background-color: #4d7a8224;
