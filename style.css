@@ -3,10 +3,11 @@ body {
 }
 
 header {
-    background-image: url("icelandphotos/iceland-trips-travel-guide.jpeg");
+    background-image: url("icelandphotos/Lighthouse.jpeg"), url("icelandphotos/Coastline.jpeg");
+    background-size: 50% auto, 50% auto; 
     height: 600px;
-    background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: left center, right center;
 }
 header div {
     background-color: #4d7a8224;
@@ -21,7 +22,7 @@ div.logo {
     background-color: rgba(255, 255, 255, 0);
     display: inline-block;
     position: absolute;
-    left: 50%;
+    left: calc(50% + 5px);
     margin-left: -30px;
     width: 50px;
     height: 50px;
@@ -101,6 +102,18 @@ nav a {
     transform: scaleX(1);
   }
 
+  div.textsection {
+    height: 400px;
+    background-color: rgb(241, 233, 223);
+  }
+  div.textsection div {
+    
+    font-size:xx-large;
+    border-left: #000 solid 10px;
+    margin: 10% 20%;
+    padding: 20px;
+  }
+
   footer {
     background-color: rgb(60, 54, 54);
     height: 100px;
@@ -137,3 +150,4 @@ nav a {
     text-align: center;
     margin-top: 20px;
   }
+
